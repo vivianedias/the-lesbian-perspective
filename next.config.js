@@ -24,6 +24,9 @@ const nextConfig = {
         ];
     return redirect;
   },
+  images: {
+    domains: ["the-lesbian-perspective.s3.sa-east-1.amazonaws.com"],
+  },
 };
 
 module.exports = nextConfig;
