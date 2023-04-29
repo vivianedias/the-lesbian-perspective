@@ -15,10 +15,10 @@ export default async function getObjectsFromAlbum(albumName: string) {
     const command = new ListObjectsCommand(input);
     const response = await client.send(command);
 
-    const bucketUrl = BUCKET_URL + "/" + albumName;
+    const bucketUrl = BUCKET_URL + "/";
 
     const content = response.Contents || [];
-    console.log({ content });
+
     if (content.length < 1) return [];
 
     const photos = content

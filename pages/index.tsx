@@ -39,7 +39,7 @@ export default function Home({
         {t("content")} - {data.name}
       </Box>
       {imgs.map((src) => (
-        <Image key={1} src={src} alt={""} width={100} height={100} />
+        <Image key={src} src={src} alt={""} width={100} height={100} />
       ))}
       {error ? <p>There was an error while fetching the data</p> : null}
     </>
