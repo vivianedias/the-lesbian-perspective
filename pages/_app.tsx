@@ -2,9 +2,10 @@ import type { AppProps } from "next/app";
 import { ChakraProvider, extendTheme, VStack } from "@chakra-ui/react";
 import { SWRConfig } from "swr";
 import { appWithTranslation } from "next-i18next";
+import { Analytics } from "@vercel/analytics/react";
 
 import customTheme from "shared/theme";
-import { Header, Footer, Analytics } from "shared/components";
+import { Header, Footer } from "shared/components";
 import { fetcher, IS_IN_MAINTENANCE } from "shared/utils";
 
 const theme = extendTheme(customTheme);
@@ -24,11 +25,11 @@ function App({ Component, pageProps }: AppProps) {
             py={IS_IN_MAINTENANCE ? 0 : [8, 16]}
           >
             <Component {...pageProps} />
+            <Analytics />
           </VStack>
           <Footer />
         </SWRConfig>
       </ChakraProvider>
-      <Analytics />
     </>
   );
 }
