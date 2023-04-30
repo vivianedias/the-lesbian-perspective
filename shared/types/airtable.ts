@@ -6,13 +6,7 @@ export type Records = {
 
 export type Fields = {
   name: string;
-  notes: string;
-  assignee: {
-    email: string;
-    name: string;
-    id: string;
-  };
-  status: string;
+  author: string;
 };
 
 export type Response = Array<
