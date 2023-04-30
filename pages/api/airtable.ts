@@ -24,7 +24,6 @@ async function fetchTable(endpoint: string): Promise<Response> {
     headers: {
       Authorization: `Bearer ${token}`,
     },
-    isExternal: true,
   };
 
   const data = await fetcher(endpoint, opts);
@@ -32,11 +31,11 @@ async function fetchTable(endpoint: string): Promise<Response> {
   return parse(data);
 }
 
-function getEndpoint(tableName: string, lng: string | string[]) {
+function getEndpoint(tableName: string) {
   const tableId =
     env !== "production" ? AIRTABLE_STG_VIEW_ID : AIRTABLE_PROD_VIEW_ID;
 
-  return `https://api.airtable.com/v0/${tableId}/${tableName}__${lng}?maxRecords=100&view=Grid%20view`;
+  return `https://api.airtable.com/v0/${tableId}/${tableName}?maxRecords=100&view=Grid%20view`;
 }
 
 export default async function handler(
@@ -44,9 +43,7 @@ export default async function handler(
   res: NextApiResponse<Response | string>
 ) {
   try {
-    const { query } = req;
-    const lng = query.lng || "pt-BR";
-    const endpoint = getEndpoint("test", lng);
+    const endpoint = getEndpoint("photos");
     const data = await fetchTable(endpoint);
 
     res.status(200).json(data);
