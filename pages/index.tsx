@@ -4,7 +4,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import useSWRImmutable from "swr/immutable";
 
-import { Head, Photos } from "@/shared/components";
+import { Head, Photos, Manifesto } from "@/shared/components";
 import { Response } from "@/shared/types/airtable";
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
       <Head title={t("title")} description={t("description")} />
       <Box>{t("content")}</Box>
       {photos ? <Photos photos={photos} /> : null}
+      <Manifesto />
     </>
   );
 }

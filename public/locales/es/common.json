@@ -13,5 +13,8 @@
       "description": "La página que buscas no existe",
       "home": "Ir a la pagina principal"
     }
+  },
+  "manifesto": {
+    "title": "Manifesto"
   }
 }
