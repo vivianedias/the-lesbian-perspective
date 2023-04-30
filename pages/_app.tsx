@@ -1,3 +1,7 @@
+import "@fontsource/ramaraja";
+import "@fontsource/quicksand";
+import "@fontsource/reem-kufi";
+
 import type { AppProps } from "next/app";
 import { ChakraProvider, extendTheme, VStack } from "@chakra-ui/react";
 import { SWRConfig } from "swr";

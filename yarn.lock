@@ -2322,6 +2322,21 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/quicksand@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/quicksand/-/quicksand-4.5.12.tgz#9d849f9c5fe5a237d1524d30653349ccfd77a0a8"
+  integrity sha512-aSgAR82dAzRsWGupPobU1ubfX6MhrQgKw2xe0AEKyQ5yMMpNhptTajbOIPJ8ZE5CPX3UHYlGY0da/7ztoEM3vQ==
+
+"@fontsource/ramaraja@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/ramaraja/-/ramaraja-4.5.11.tgz#887b54bb642464d2803a08bbde83e933cffd079a"
+  integrity sha512-+Je+zqVSbh/rrU3yMdBeraSUh3JtK/e5bE0RA2dAzCNsKqTFkZNuRK5c19wJiSSm44byDNBi8Nk012eYuXPBcg==
+
+"@fontsource/reem-kufi@^4.5.13":
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/reem-kufi/-/reem-kufi-4.5.13.tgz#bccd12e2d9509ee97fbf4dd313b911646d50c733"
+  integrity sha512-D352CrA1tKbjdPQ6QvQtomEjaO7ZzJILEBfmP6ZJhZhMd9fl/p9jdJcu68LB50wO5CRdbVCRMS4p5GcFDcaaow==
+
 "@heroicons/react@^2.0.17":
   version "2.0.17"
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-2.0.17.tgz#42a8086bc434ceefc03592f20c4e81b11e915cf8"
