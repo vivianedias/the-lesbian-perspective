@@ -1,4 +1,4 @@
-import "@fontsource/ramaraja";
+import "@fontsource/eb-garamond";
 import "@fontsource/quicksand";
 import "@fontsource/reem-kufi";
 

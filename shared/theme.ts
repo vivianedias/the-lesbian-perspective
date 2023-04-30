@@ -3,7 +3,7 @@ Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue`;
 
 const theme = {
   fonts: {
-    heading: `"Ramaraja", serif, ${fallback}`,
+    heading: `"EB Garamond", serif, ${fallback}`,
     body: `"Quicksand", sans-serif, ${fallback}`,
     cta: `"Reem Kufi", sans-serif, ${fallback}`,
   },

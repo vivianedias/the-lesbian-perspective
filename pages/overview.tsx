@@ -28,7 +28,8 @@ export default function OverviewPage() {
         as={"h3"}
         size={"md"}
         textTransform={"uppercase"}
-        letterSpacing={"-0.01rem"}
+        letterSpacing={"tight"}
+        lineHeight={"shorter"}
       >
         {t("description")}
       </Heading>

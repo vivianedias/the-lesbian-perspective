@@ -2322,15 +2322,15 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/eb-garamond@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/eb-garamond/-/eb-garamond-4.5.11.tgz#c25a7b9d112e98d1fe382ce656e856b338ae53d0"
+  integrity sha512-LwhKdD20iu3/Bzf7BCUg6YXwSFS0ouaCQJj0d+pZStKQlGiH/J5BGB8bhEqVeRdsoNRYyCs9IX9lIXpjvPOnRQ==
+
 "@fontsource/quicksand@^4.5.12":
   version "4.5.12"
   resolved "https://registry.yarnpkg.com/@fontsource/quicksand/-/quicksand-4.5.12.tgz#9d849f9c5fe5a237d1524d30653349ccfd77a0a8"
   integrity sha512-aSgAR82dAzRsWGupPobU1ubfX6MhrQgKw2xe0AEKyQ5yMMpNhptTajbOIPJ8ZE5CPX3UHYlGY0da/7ztoEM3vQ==
-
-"@fontsource/ramaraja@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@fontsource/ramaraja/-/ramaraja-4.5.11.tgz#887b54bb642464d2803a08bbde83e933cffd079a"
-  integrity sha512-+Je+zqVSbh/rrU3yMdBeraSUh3JtK/e5bE0RA2dAzCNsKqTFkZNuRK5c19wJiSSm44byDNBi8Nk012eYuXPBcg==
 
 "@fontsource/reem-kufi@^4.5.13":
   version "4.5.13"
